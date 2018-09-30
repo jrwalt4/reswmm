@@ -1,0 +1,5 @@
+---
+Language: Cpp
+AllowShortIfStatementsOnASingleLine: false
+BasedOnStyle: Google
+BreakBeforeBraces: Linux
