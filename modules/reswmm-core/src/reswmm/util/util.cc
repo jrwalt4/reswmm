@@ -1,4 +1,4 @@
-#include "swmm/util/util.h"
+#include "reswmm/util/util.h"
 
 #include <utility>
 // std::pair
@@ -9,7 +9,7 @@
 #include <boost/math/tools/roots.hpp>
 // boost::math::tools::bisect
 
-namespace swmm
+namespace reswmm
 {
 namespace util
 {
@@ -31,4 +31,4 @@ double find_root(root_fn_t fn, double low, double high)
 }
 
 }  // namespace util
-}  // namespace swmm
+}  // namespace reswmm

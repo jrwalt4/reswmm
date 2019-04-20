@@ -1,4 +1,4 @@
-#include "swmm/swmm.h"
+#include "reswmm/reswmm.h"
 
 #include <iostream>
 // std::cout
@@ -7,7 +7,7 @@
 
 int main(int argc, char const *argv[])
 {
-  double result = swmm::run();
+  double result = reswmm::run();
   std::cout << "result = " << result << std::endl;
   return EXIT_SUCCESS;
 }

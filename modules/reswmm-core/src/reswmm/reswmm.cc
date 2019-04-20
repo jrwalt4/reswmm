@@ -1,8 +1,8 @@
-#include "swmm/swmm.h"
+#include "reswmm/reswmm.h"
 
-#include "swmm/util/util.h"
+#include "reswmm/util/util.h"
 
-namespace swmm
+namespace reswmm
 {
 static const double SQRT_SEEK = 2;
 
@@ -13,4 +13,4 @@ double sqr_root(double x)
 }
 double run() { return util::find_root(sqr_root, 1.0, 2.0); }
 
-}  // namespace swmm
+}  // namespace reswmm

@@ -1,7 +1,7 @@
-#ifndef SWMM_UTIL_H
-#define SWMM_UTIL_H
+#ifndef RESWMM_UTIL_H
+#define RESWMM_UTIL_H
 
-namespace swmm
+namespace reswmm
 {
 namespace util
 {
@@ -10,6 +10,6 @@ typedef double (*root_fn_t)(double x);
 double find_root(root_fn_t fn, double low, double high);
 
 }  // namespace util
-}  // namespace swmm
+}  // namespace reswmm
 
-#endif  // SWMM_UTIL_H
+#endif  // RESWMM_UTIL_H
