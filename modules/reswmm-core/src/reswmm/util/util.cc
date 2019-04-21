@@ -13,6 +13,9 @@ namespace reswmm
 {
 namespace util
 {
+/**
+ * Tolerance function
+ */
 typedef bool (*tolerance_fn_t)(double low, double high);
 
 static bool tolerance_fn(double low, double high)

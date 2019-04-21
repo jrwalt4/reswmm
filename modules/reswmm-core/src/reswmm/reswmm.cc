@@ -6,6 +6,12 @@ namespace reswmm
 {
 static const double SQRT_SEEK = 2;
 
+/**
+ * @brief Test routine to estimate `sqrt(SQRT_SEEK)`
+ * 
+ * @param x 
+ * @return the error between x and the sought value 
+ */
 double sqr_root(double x)
 {
   // test routine to estimate sqrt(SQRT_SEEK)
