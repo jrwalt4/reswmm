@@ -11,7 +11,7 @@ add_subdirectory(./modules/reswmm-core)
 add_subdirectory(./modules/reswmm-cli)
 
 # create documentation
-set(BUILD_DOCS OFF CACHE BOOL "Build documentation with Doxygen (default OFF)")
+option(BUILD_DOCS "Build documentation with Doxygen (default OFF)")
 
 if(BUILD_DOCS)
   find_package(Doxygen
