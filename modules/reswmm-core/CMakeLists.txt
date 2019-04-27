@@ -27,6 +27,7 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src/reswmm/util)
 # define the swmm-core library
 set(RESWMM_CORE_SOURCES
   reswmm.cc
+  model/xsection.cc
 )
 list(TRANSFORM RESWMM_CORE_SOURCES PREPEND ${CMAKE_CURRENT_SOURCE_DIR}/src/reswmm/)
 add_library(reswmm-core ${RESWMM_CORE_SOURCES})
