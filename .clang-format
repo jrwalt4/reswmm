@@ -2,4 +2,17 @@
 Language: Cpp
 AllowShortIfStatementsOnASingleLine: false
 BasedOnStyle: Google
-BreakBeforeBraces: Linux
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterNamespace: true
+  SplitEmptyNamespace: false
+  AfterClass: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterFunction: true
+  SplitEmptyFunction: false
+  AfterControlStatement: false
+  AfterExternBlock: true
+  BeforeCatch: true
+  IndentBraces: false
+BreakConstructorInitializers: AfterColon
